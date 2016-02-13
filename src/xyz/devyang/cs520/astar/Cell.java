@@ -7,8 +7,8 @@ public class Cell implements Comparable {
 
     protected int x;              // x-coordinate
     protected int y;              // y-coordinate
-    protected boolean isOpen;
-    protected boolean isClosed;   // is visited
+    protected boolean isOpen;     // is visited
+    protected boolean isClosed;   // is closed
     protected boolean isBlocked;  // is blocked
     protected int g;              // g value, distance from source
     protected int h;              // h value, estimated distance to destination

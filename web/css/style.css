@@ -1,0 +1,86 @@
+.panel {
+	position: fixed;
+	padding: 20px;
+    width: 300px;
+    right: 40px;
+    background: rgba(124, 124, 124, 0.8);
+	border-radius: 5px;
+	color: rgba(0, 0, 0, 1);
+}
+
+.panel.commend-panel {
+    text-align: center;
+    top: 100px;
+}
+
+.panel.setting-panel {
+    top: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+.panel.instruction-panel {
+    top: 520px;
+    padding: 10px;
+}
+
+.count {
+    position: fixed;
+    padding: 20px;
+    width: 300px;
+    right: 40px;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 0, 0, 1);
+    font-size: large;
+}
+
+.grid {
+    width: 3300px;
+    height: 3300px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.text.title {
+    font-size: xx-large;
+    /*background: rgba(0, 0, 0);*/
+    /*color: rgba(0, 255, 0, 0.51);*/
+}
+
+.text.subtitle {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 15px;
+    /*background: rgba(0, 0, 0);*/
+    /*color: #dddddd;*/
+}
+
+.text.text-default {
+    font-size: medium;
+    margin-left: 20px;
+    /*padding: 0px;*/
+}
+
+.btn {
+    margin-left: 2px;
+    margin-right: 2px;
+	font-size: large;
+	font-weight: bold;
+}
+
+.green {
+    color: rgba(0, 255, 0, 0.6);
+}
+
+.red {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.foot {
+    position: fixed;
+    bottom: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A* Search For CS520</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+
+<svg id="grid" class="grid"></svg>
+
+<div id="count" class="count">
+    <label>Path Length: </label><br/>
+    <label>Explored Points: </label><br/>
+</div>
+
+<div id="commend_panel" class="panel commend-panel">
+    <button id="start" class="btn btn-success">Start</button>
+    <button id="pause" class="btn btn-warning">Pause</button>
+    <button id="reset" class="btn btn-info">Reset</button>
+</div>
+
+<div id="setting_panel" class="panel setting-panel text">
+    <div class="text title">Setting</div>
+    <div>
+        <p class="text subtitle">Heuristic</p>
+        <div class="radio text text-default">
+            <label>
+                <input type="radio" name="optionsRadios" id="Manhattan" value="1" checked> Manhattan
+            </label>
+        </div>
+        <div class="radio text text-default">
+            <label>
+                <input type="radio" name="optionsRadios" id="xxxx" value="2"> xxxx
+            </label>
+        </div>
+    </div>
+</div>
+
+<div id="instruction_panel" class="panel instruction-panel text">
+    <div class="text title">Notes</div>
+    <div>
+        Click the <span class="white">white</span> grid to draw obstacles.<br>
+        Drag the <span class="green">green</span> node to the start position. <br>
+        Drag the <span class="red">red</span> node to the end position. <br>
+        Set algorithm behaviours from the right-hand panel. <br>
+    </div>
+</div>
+
+<div class="foot">
+    Power by <a href="https://d3js.org">D3.js</a>
+    Project Hosted on <a href="https://github.com/yy9415/AStarSearch">Github</a>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/d3.v3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
